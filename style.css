@@ -1,0 +1,104 @@
+html *
+{
+   font-family: 'Courier New', Courier, monospace !important;
+}
+
+body{
+    background-image:url('./pokeBackground.jpg')
+}
+
+header{
+    color: beige;
+    text-align: center;
+    padding: 50px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+.buttons{
+    align-items: center;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+.display{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.eachPoke{
+    background-color: beige;
+    margin: 30px;
+    padding: 50px;
+    height: 270px;
+    width: 240px;
+    text-align: center;
+    border: 3px solid rgb(47, 80, 80);
+
+
+}
+
+.eachPoke:hover {
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    background: #FF6347;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.eachPoke h2{
+    padding: 25px;
+}
+
+.pokeProfile{
+    margin-top: 100px;
+    background-color: beige;
+    margin-left: 200px;
+    align-items: center;
+    padding: 170px;
+
+}
+
+.eachImage{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 2px solid darkgreen;
+    padding: 5px; 
+    
+}
+
+.eachImage:hover{
+    border: 3px solid cyan;
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background: #FF6347;
+
+}
+button{
+
+    height: 30px;
+    width: 150px;
+    border-color: blue;
+    color: brown;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+button:hover{
+
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    background: lightsalmon;
+    font-size: 1.1rem;
+
+}
