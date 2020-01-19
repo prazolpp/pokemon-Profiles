@@ -101,9 +101,11 @@ const render = (data) => {
                 const info = display.querySelectorAll('.info')
                 info.forEach((f, index) => {
                     f.innerHTML = dataKeys.reduce((acc,key, index) => {
+
+                        let cleankey = key.replace(/_/g, " ");
                         return acc + `
                         <div class="informations">
-                        <h2> ${key}: ${imgData[key]} </h2>
+                        <h2> ${cleankey}: ${imgData[key]} </h2>
                         </div>
                         `
                     }, " ")
