@@ -89,6 +89,7 @@ button{
     color: brown;
     font-size: 1.1rem;
     font-weight: bold;
+    background-color: white;
 }
 
 button:hover{
